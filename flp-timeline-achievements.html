@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLP Achievements Timeline 2024-2025</title>
+    
+    <!-- TimelineJS CSS -->
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    
+    <style>
+        :root { --flp-purple:#6a2383; --flp-purple-dark:#552066; }
+      
+        /* -------------------------------------------------
+           Page / container
+        ------------------------------------------------- */
+        body{margin:0;padding:0;background:#fff;font-family:Arial,sans-serif;}
+        #timeline-embed{width:100%;height:100vh;}
+      
+        /* -------------------------------------------------
+           1.  Title slide & nav arrow text
+        ------------------------------------------------- */
+        /* headline text you couldn’t see */
+        .tl-headline,
+        .tl-headline-date,
+        /* title in the right‑hand slide‑nav (arrow) */
+        .tl-slidenav-content-title{
+            color:#fff !important;
+        }
+      
+        /* subtitle / description on the title slide */
+        .tl-text-content-container p{
+            color:#fff !important;
+            font-size:1.05rem;           /* bump size up a little */
+            line-height:1.4;
+        }
+      
+        /* keep the purple background you want */
+        .tl-slide.tl-title .tl-slide-content{
+            background-color:var(--flp-purple) !important;
+        }
+      
+        /* -------------------------------------------------
+           2.  Event “buttons” on the band
+        ------------------------------------------------- */
+        .tl-timemarker-content-container{
+            background:var(--flp-purple) !important;
+        }
+        /* event headline inside those blocks */
+        .tl-timemarker-content-container .tl-headline{
+            color:#fff !important;
+            font-weight:600;
+            font-size:.9rem;
+        }
+        /* hovered / selected state a shade darker */
+        .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container{
+            background:var(--flp-purple-dark) !important;
+        }
+      </style>      
+</head>
+<body>
+    <!-- Timeline container -->
+    <div id="timeline-embed">
+        <div class="loading">Loading timeline...</div>
+    </div>
+
+    <!-- TimelineJS JavaScript -->
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    
+    <script>
+        // Wait for the page to fully load
+        window.addEventListener('load', function() {
+            // Timeline data
+            var timelineData = {
+                "title": {
+                    "text": {
+                        "headline": "FLP Achievements 2024-2025",
+                        "text": "A timeline of key achievements and milestones from the Flexible Learning Programme"
+                    }
+                },
+                "events": [
+                    {
+                        "start_date": {"year": "2024", "month": "1"},
+                        "end_date": {"year": "2024", "month": "2"},
+                        "text": {
+                            "headline": "New Digital Capability Student Rep role in partnership with the Students' Union",
+                            "text": "In collaboration with the Students' Union, we created a new Rep role to help embed, champion and cascade development and recognition opportunities relating to digital capabilities"
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "1"},
+                        "end_date": {"year": "2024", "month": "2"},
+                        "text": {
+                            "headline": "Elearning teams receive access to Canvas",
+                            "text": "We provided our eLearning teams with early access to Canvas, our new Central Learning Environment, to start testing and familiarising with the interface. Provided by Instructure, our Pedagogy group and eLearning teams also completed their fundamentals training for Canvas."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "2"},
+                        "end_date": {"year": "2024", "month": "3"},
+                        "text": {
+                            "headline": "Our Digital Learning Service (DLS) design approved",
+                            "text": "After extensive collaboration, our design for the DLS has been approved. The DLS will act as a wrapper around the existing digital learning teams and structures across the University"
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "2"},
+                        "end_date": {"year": "2024", "month": "3"},
+                        "text": {
+                            "headline": "Manchester announced as UNESCO City of Lifelong Learning",
+                            "text": "We are pleased to be leading the lifelong learning approach and to have contributed to the successful bid. To address the challenges around accessing talent and sector-specific digital skills, our programme will lead on the development of Manchester's Digital Skills Framework (MDSF)."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "2"},
+                        "end_date": {"year": "2024", "month": "3"},
+                        "text": {
+                            "headline": "'Optionality in Assessment' project completed",
+                            "text": "We completed our project, exploring the feasibility and practicality of students having choice in their assessment, with 12 case studies published online along with two media resources."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "3"},
+                        "end_date": {"year": "2024", "month": "4"},
+                        "text": {
+                            "headline": "Flexible Learning Teaching Innovation Space",
+                            "text": "We opened our permanent Flexible Learning Innovation Space, where a range of innovative teaching and learning facilities are available including virtual-reality suites, lifelong-learning suites and more."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "3"},
+                        "end_date": {"year": "2024", "month": "4"},
+                        "text": {
+                            "headline": "Microsoft Certifications Pilot",
+                            "text": "We launched the introduction of Microsoft Fundamentals Certifications for students to support their digital-skills development and employability and better understand the demand for industry-recognised certifications."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "3"},
+                        "end_date": {"year": "2024", "month": "4"},
+                        "text": {
+                            "headline": "Greater Manchester Civic Panel on Lifelong Learning",
+                            "text": "Our Lifelong Learning team, in partnership with The Greater Manchester Civic Panel and Public First, held an evening discussion focused on lifelong learning. This activity forms part of the Lifelong Learning Business Insight Plan."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "3"},
+                        "end_date": {"year": "2024", "month": "4"},
+                        "text": {
+                            "headline": "Lifelong Learning Alumni Survey, and the Strategic and KTP Partner Survey",
+                            "text": "Our alumni survey, with 666 responses, provides valuable insights on key skills areas and preferred learning styles. The strategic and KTP partner survey involved creating an online questionnaire tailored for Learning & Development leads of 15 strategic partners and 15 KTP partners."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "4"},
+                        "end_date": {"year": "2024", "month": "5"},
+                        "text": {
+                            "headline": "Jisc Digital Experience Insights Surveys closed",
+                            "text": "Nearly 400 students and over 400 staff completed the surveys, voicing their feedback and opinions on the University's digital experience."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "4"},
+                        "end_date": {"year": "2024", "month": "5"},
+                        "text": {
+                            "headline": "Tender with Executive Education in AMBS to provide training to 4 200 learners",
+                            "text": "We have supported a tender with ExecEd to provide line-management training to 4 200 learners worth £4.2 million within the civil service – supported by KPMG."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "4"},
+                        "end_date": {"year": "2024", "month": "5"},
+                        "text": {
+                            "headline": "Introduced Digital Champions student volunteering opportunity",
+                            "text": "In partnership with Manchester City Council and the Flexible Learning Programme, a new student-volunteering opportunity is available to support digitally excluded people in Manchester."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "5"},
+                        "end_date": {"year": "2024", "month": "6"},
+                        "text": {
+                            "headline": "Booth Street East Teaching space event",
+                            "text": "We launched the Booth Street East Teaching Innovation space event for staff, where we showcased our innovative facilities including VR and podcasting suites."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "5"},
+                        "end_date": {"year": "2024", "month": "6"},
+                        "text": {
+                            "headline": "Demonstrating Digital Transformation",
+                            "text": "We co-hosted the Demonstrating Digital Transformation event with Jisc, where senior higher-education leaders across the nation came together on University campus."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "9"},
+                        "end_date": {"year": "2024", "month": "10"},
+                        "text": {
+                            "headline": "Jisc digital transformation maturity-model pilot podcast and case study published",
+                            "text": "The Flexible Learning Programme successfully piloted Jisc's digital-transformation maturity model to support the implementation of the CLE. Find out more by listening to the podcast and reading the member story."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "9"},
+                        "end_date": {"year": "2024", "month": "10"},
+                        "text": {
+                            "headline": "Digital Equity Charter",
+                            "text": "We launched the Digital Equity Charter dedicated to students, which sets out the University's commitment to supporting students' digital equity."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "10"},
+                        "end_date": {"year": "2024", "month": "11"},
+                        "text": {
+                            "headline": "Jisc Digital Insights Surveys 24/25 open",
+                            "text": "Surveys launched for students, professional-services staff and teaching-and-learning staff for 2024/25. The surveys are used to provide feedback and help inform improvements to enhance everyone's digital University experience."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "10"},
+                        "end_date": {"year": "2024", "month": "11"},
+                        "text": {
+                            "headline": "THE Summit 2024",
+                            "text": "Prof. Simon Thomson and Prof. Ang Davies delivered a Times Higher Education Academic Summit session about micro-credentials."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "10"},
+                        "end_date": {"year": "2024", "month": "11"},
+                        "text": {
+                            "headline": "Canvas first technical release success",
+                            "text": "The first of three technical releases of Canvas successfully took place w/c Monday 30 September, provisioning Canvas access to identified programmes to begin building selected courses."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "10"},
+                        "end_date": {"year": "2024", "month": "11"},
+                        "text": {
+                            "headline": "Access to LinkedIn Learning now available for all students and staff",
+                            "text": "All staff and students can now access LinkedIn Learning for personal and professional development, as part of the Programme's pilot, evaluated until June 2026."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "10"},
+                        "end_date": {"year": "2024", "month": "11"},
+                        "text": {
+                            "headline": "Assessment Toolkit staff launch",
+                            "text": "The Assessment Toolkit is an online resource for developing assessment and feedback practice for our students. For our teaching-focused staff, we hope this will be a helpful tool to support your role at the University."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "10"},
+                        "end_date": {"year": "2024", "month": "11"},
+                        "text": {
+                            "headline": "Booth Street East Student event",
+                            "text": "At Booth Street East, we hosted our launch event for students, including building tours and taster sessions for the VR and podcasting suites. The event showcased the fantastic teaching and learning facilities and spaces on offer."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "11"},
+                        "end_date": {"year": "2024", "month": "12"},
+                        "text": {
+                            "headline": "Pilot Digital Equity Fund for students launched",
+                            "text": "Following the launch of the Digital Equity Charter, £100 000 from the Manchester Access and Success Fund has been awarded to the Access and Success Team to implement a pilot scheme, providing laptop vouchers worth £250 each for students."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "11"},
+                        "end_date": {"year": "2024", "month": "12"},
+                        "text": {
+                            "headline": "Digital Capability Student Reps",
+                            "text": "The Students' Union's second cohort of Digital Capability Reps had their induction in partnership with the Digital Skills workstream following the success of last year's pilot introduction of this new Student Rep role."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2024", "month": "12"},
+                        "end_date": {"year": "2025", "month": "1"},
+                        "text": {
+                            "headline": "Jisc Digital Insights Surveys 23/24 results",
+                            "text": "Jisc Digital Experience Insights Surveys student and colleague responses to the 2023-24 survey were shared with students, colleagues and leaders, highlighting mixed opinions on users' digital experiences. This survey data will inform initiatives and projects already in development to improve the University's digital landscape."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2025", "month": "1"},
+                        "end_date": {"year": "2025", "month": "2"},
+                        "text": {
+                            "headline": "All staff access to Canvas and training",
+                            "text": "A chance for our staff to hear the latest updates about our move from Blackboard to Canvas."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2025", "month": "2"},
+                        "end_date": {"year": "2025", "month": "3"},
+                        "text": {
+                            "headline": "Partnerships, Bank of England",
+                            "text": "Bank of England will train 25 economics teachers in the Northwest during a 2025/26 pilot to tackle shortages in state schools and colleges."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2025", "month": "2"},
+                        "end_date": {"year": "2025", "month": "3"},
+                        "text": {
+                            "headline": "Commuter Space opened",
+                            "text": "Commuter space in Booth Street East opened, providing a dedicated space for commuter students to relax, study and meet. Facilities include cooking equipment, lockers and a shower."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2025", "month": "2"},
+                        "end_date": {"year": "2025", "month": "3"},
+                        "text": {
+                            "headline": "Second Technical Release success and TNE go-live",
+                            "text": "Canvas is now ready for teaching following February's second technical release. TNE launched the first two student-facing courses at UoM."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2025", "month": "2"},
+                        "end_date": {"year": "2025", "month": "3"},
+                        "text": {
+                            "headline": "Migration of Blackboard data begins",
+                            "text": "Over 2 000 Blackboard courses from the past 3 years are being reviewed and migrated to Canvas by the end of April."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2025", "month": "3"},
+                        "end_date": {"year": "2025", "month": "4"},
+                        "text": {
+                            "headline": "EuCen membership",
+                            "text": "The University of Manchester has been accepted by the Steering Committee of Eucen, and a formal presentation will take place at the annual conference in June."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2025", "month": "3"},
+                        "end_date": {"year": "2025", "month": "4"},
+                        "text": {
+                            "headline": "Digital Peer Learning Network Event",
+                            "text": "A joint networking event with Manchester Metropolitan explored ways to strengthen digital skills for students across both universities."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2025", "month": "3"},
+                        "end_date": {"year": "2025", "month": "4"},
+                        "text": {
+                            "headline": "Assessment Toolkit wins DSE award",
+                            "text": "Assessment Toolkit won DSE's Outstanding Contribution Award. It offers resources for staff and guidance to enhance the student experience."
+                        },
+                        "background": {"color": "#6a2383"}
+                    },
+                    {
+                        "start_date": {"year": "2025", "month": "3"},
+                        "end_date": {"year": "2025", "month": "4"},
+                        "text": {
+                            "headline": "Canvas microsite now live hosting colleague essential documents",
+                            "text": "The new University microsite supports the Canvas transition, with templates and standards for building quality courses: https://livemanchesterac.sharepoint.com/sites/UOM-FLP-CLE-CANVAS"
+                        },
+                        "background": {"color": "#6a2383"}
+                    }
+                ]
+            };
+
+            // Initialize timeline only after ensuring TL is available
+            if (typeof TL !== 'undefined') {
+                window.timeline = new TL.Timeline('timeline-embed', timelineData, {
+                    hash_bookmark: false,
+                    initial_zoom: 2,
+                    height: window.innerHeight,
+                    start_at_end: false,
+                    default_bg_color: {r:106, g:35, b:131}
+                });
+            } else {
+                // Fallback if TL still isn't defined
+                setTimeout(function() {
+                    window.timeline = new TL.Timeline('timeline-embed', timelineData, {
+                        hash_bookmark: false,
+                        initial_zoom: 2,
+                        height: window.innerHeight,
+                        start_at_end: false,
+                        default_bg_color: {r:106, g:35, b:131}
+                    });
+                }, 1000);
+            }
+        });
+    </script>
+</body>
+</html>
